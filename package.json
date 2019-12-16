@@ -1,0 +1,30 @@
+{
+  "name": "ts-express-start",
+  "version": "1.0.0",
+  "description": "ts-express-start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankkiv/ts-express-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankkiv/ts-express-start/issues"
+  },
+  "homepage": "https://github.com/frankkiv/ts-express-start#readme",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
